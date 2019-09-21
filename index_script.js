@@ -10,4 +10,5 @@ function switchcolor(){
       value = value + num;
     }
     bodybg.style.backgroundColor = value;
+    hexcolor.innerHTML = value;
 }
